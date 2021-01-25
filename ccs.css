@@ -1,0 +1,798 @@
+/* Définition des polices */
+@font-family: 'Raleway', sans-serif;
+
+
+
+/* Insertion de l'écriture dans le body du site *//* Gestion de la taille du bloc général */
+body
+{
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+}
+
+
+/*Alignement logo + bouton s'inscrire */
+#menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8%;
+    margin-top: 5%;
+    
+}
+
+/*Style bouton s'inscrire */
+#menu a
+{
+    font-family:'Raleway', sans-serif;
+    font-size: 2.5em;
+    text-decoration:solid;
+    color:#0065FC;
+    font-weight: 800;
+    padding-right: 10%;
+}
+
+/*Gérer le logo */
+.reservia
+{
+    height: 100px;
+    width: 200px;
+    padding-left: 100px;
+}
+
+/*Que t'on menu soit en ligne */
+nav ul
+{
+    font-size: 2.5em;
+    display: flex;
+    list-style-type: none;
+    margin-left: -5%;
+    width: auto;
+    
+}  
+
+/*Créer des espace entre les sections du menu  */
+nav li
+{
+    display: inline block;
+    border-bottom: 10px solid #F2F2F2;
+    text-align: center;
+    width: 100%;
+    padding: 10px 10px 30px 10px ;
+    
+}
+
+.title-blue
+{
+    color: #307ff5;
+}
+.blue-border
+{
+    border-bottom: 10px solid  #307ff5;
+}
+/*Gestion du design des liens des menus  */
+nav a 
+{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 25px ;
+    
+}
+
+/*Gérer le design des menus au survol */
+
+nav li:hover 
+{
+    border-bottom: 10px solid #DEEBFF;
+    color: #760001 ;
+}
+
+/*Voir comment faire les carrés et les lignes en dessous des menus.  */
+
+/*Définir marge pour la partie texte et barre de recherche.  */
+
+#holidays
+{
+    margin: 10%;
+    align-items: center;
+}
+
+/*Mettre en page texte.  */
+h1
+{
+text-align: justify;
+font-size: 2.5em;
+font-weight: 800;
+text-decoration: none;
+padding-right: 3%;
+}
+
+#holidays p 
+{
+    padding-left: 0%;
+    font-size: 1.2em;
+}
+/*Mettre le fond girs à l'icone + design général conentenant.  */
+#searchBox
+{
+    background-color:#F2F2F2;
+    display: flex;
+    border-radius: 30px;
+    height: 140px;
+    align-items: center;
+    width: 90%;
+    padding-left: 5%;
+    margin-top: 10%;
+    position: relative;
+    margin-left: 0%;
+}
+
+/*Icone modifier couleur + taille + ajouter marge gauche */
+
+/*barre de recherche taille */
+.search-text
+{
+    height: 125px;
+    width: 670px;
+    border: 3px solid #F2F2F2;
+    position: relative;
+    padding-top: 8px;
+    margin-left: 13%;
+}
+
+/*Style de l'écriture dans la barre */
+::placeholder
+{
+    color: black;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: left;
+    padding-left: 30px;
+    vertical-align: middle;
+   
+}
+/*Bouton recherche */
+.search_btn
+{
+   color: white;
+   float: right;
+   height: 140px;
+   width: 150px;
+   border-radius: 30%;    
+   background: #307ff5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 200%;
+   text-decoration: none;
+   position: absolute;
+   top: 0px;
+   left: 90%;
+}
+
+/*Icone de géolocalisation */
+#iconelocalisation
+{
+    font-size: 300%;
+    background:#F2F2F2;
+    width:100%;
+    height: 110px;
+    display: flex;
+   align-items: center;
+   position: absolute;
+   left: 6%;
+   margin-right: 5%;
+    }
+
+/*marge pour la section filtre */
+#filters
+{
+    margin-left: 10%;
+    align-items: center;
+}
+
+#filters h2
+{
+    margin-top: -3%;
+    margin-bottom: 5%;
+    font-weight: 800;
+    font-size: 2.5em;
+}
+/*Aligner sur tel filtre eco et famille */
+.filtereco
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Créer bouton pour le filtre economique */
+.designFilter
+{
+    border: 5px solid #F2F2F2;
+    border-radius: 100px;
+    height: 99px;
+    display: flex;
+    position: relative;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding-right: 2%;   
+    
+}
+
+/*Design des icones des filtres */
+#design-icone
+{
+    color:#0065FC;
+    background-color: #DEEBFF ;
+    font-size: 2.5em;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: -50px;
+    padding-top: 0;
+    position: absolute;
+    top: -9px;
+    left: -2px;
+}
+
+
+/*Design textes des filtres */
+
+#filters a
+{
+    font-size: 2.5em;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 20px;
+}
+
+/*Mettre le aside devant l'article */
+.hebergement
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*Mettre info et texte cote à cote */
+.info
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-right: 50px;
+   position: relative;
+   }
+
+/*Mettre info et texte cote à cote */
+.info p
+{
+   display: flex;
+   font-size: 3em;
+   padding-left: 130px;   
+}
+#famille
+{
+    padding-right: 5%;
+}
+
+/*Icone style */
+#design-icone-info
+{
+color: #0065FC;
+font-size: 2em;
+border: 2px solid #6b6f75 ;
+border-radius: 50%;
+width: 70px;
+height: 65px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 2%;
+top: 20%;
+margin-right: 10%;
+
+}
+
+/*gestion du aside */
+aside
+{
+    margin:0px;
+    background-color:#F2F2F2 ;
+    position: relative;
+}
+
+
+/*mettre + populaire et icone à côté */
+.title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    position: relative;
+}
+
+/*Gestion de l'icone "growth" */
+.growth
+{
+    font-size: 400%;
+    position: absolute;
+    left: 90%;
+    top: 27%;
+}
+
+/*Définition des marges dans mon aside */
+#hebpop
+{
+    margin-left: 7%;
+    margin-right: 8%;
+    margin-top: 7%;
+}
+
+/*Création de mes cases hébergement */
+.hotelPopulaire
+{
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 6px 30px #989ca3;
+    position: relative;
+    margin-bottom: 10%;
+    overflow: hidden;
+    border: 17px solid white;   
+     
+}
+
+/*Mettre les images à côtés des textes */
+figure
+{
+    display: flex;
+    height: 360px; 
+}
+
+/*Redimensionner et repositionner image matin */
+.matin
+{
+    position: absolute;
+    top: 1px;
+    left: -2px;
+    height: 100%;
+    border-radius: 50px;
+}
+/*Redimensionner et repositionner image hotel eau */
+.eau
+{
+    position: absolute;
+    top: 1px;
+    left: -2px;
+    border-radius: 50px;
+    height: 100%;
+    width: 500px; 
+}
+
+/*Redimensionner et repositionner image hotel bleu et blanc */
+.bleuEtBlanc
+{
+    position: absolute;
+    top: -7%;
+    left: 0%;
+    border-radius: 50px;
+    height: 109%;
+    width: 59%;
+
+}
+
+.stars-bleuEtBlanc
+{
+    padding-bottom: 0;
+    color:#dadada ;
+    size: 2em; 
+    position: absolute;
+    top: 77.5%;
+    left: 36.5%;
+}
+
+/*Mets en place le carré blanc */
+figcaption
+{
+    background-color: white;
+    position: absolute;
+    left: 51%;
+    height: 100%;
+    width:57%;
+    top: 0%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+/*Mettre en forme le texte titre  */
+figcaption h3
+{
+    font-size: 2.5em;
+    color: black;
+    padding-left: 40px;
+}
+
+/*Mettre en forme les textes p  */
+figcaption p
+{
+    color: black;
+    font-size: 2em;
+    padding-left: 40px;
+
+}
+
+/*Mettre en forme les icones  */
+.full-stars
+{
+    color: #0065FC ;
+    font-size: 2em;
+    padding: 20px 0 0 40px;
+    display: flex;
+}
+
+.gray-stars
+{
+    color: #dadada;
+}
+.grey-stars
+{
+    color: #dadada;
+    font-size: 1em;
+    padding: 50px 0 0 40px;
+    display: flex;
+    position: absolute;
+    top: 64.3%;
+    left: 25%;
+}
+
+/*Mettre en forme le texte affichez plus */
+
+h3
+{
+    font-size: 3em;
+    padding-left: 7%;
+    font-weight: 800;
+}
+
+/*Mettre les marges dans mon article */
+article
+{
+    margin-left: 7%;
+    margin-right: 8%;
+    margin-top: 7%; 
+}
+
+/*Mettre en place la box */
+.hotel
+{
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    margin-bottom: 10%;
+    box-shadow: 0px 6px 30px #989ca3;
+    position: relative;
+    overflow: hidden; 
+}
+
+/*Dimensionner l'image */
+.port
+{
+    position: absolute;
+    width: 96%;
+    height: 80%;
+    border-radius: 100px;
+    padding: 20px 20px 0 20px;
+}
+
+.cannebiere
+{
+        position: absolute;
+        width: 96%;
+        height: 80%;
+        border-radius: 100px;
+        padding: 20px 20px 0 20px;
+}
+
+.mouettes
+{
+    position: absolute;
+    width: 96%;
+    height: 80%;
+    border-radius: 100px;
+    padding: 20px 20px 0 20px;
+}
+
+.mer
+{
+    position: absolute;
+    width: 96%;
+    height: 90%;
+    border-radius: 100px;
+    padding: 20px 20px 0 20px;
+}
+.panier
+{
+    position: absolute;
+    width: 96%;
+    height: 90%;
+    border-radius: 100px;
+    padding: 20px 20px 0 20px;  
+}
+
+.Amina
+{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border-radius: 100px;
+    padding: 20px 25px 0 20px;
+    top: 0%;
+    
+}
+
+/*mettre titre et texte en dessous */
+.hebergement-marseille
+{
+    position: absolute;
+    top: 50px;
+}
+
+.description
+{
+    background-color:white;
+    width: 100%;
+    height: 40%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    top: 65%;
+    left: 0%;
+}
+
+/*Mise en place du titre hébergement à Marseille */
+h2
+{
+    font-size: 4em;
+    margin-bottom: 10%;
+}
+
+/*Mise en place du titre dans chaque box */
+.description h3
+{
+  font-size: 3em;
+  color: black;
+  position: absolute;
+  top: -10%;
+  left: 8.5%;
+}
+
+/*Mise en place du titre dans chaque box */
+.description p 
+{
+  font-size: 2.5em;
+  color: black;
+  padding-left: 50px;
+  position: absolute;
+  top: 19%;
+  left: 5%;
+}
+
+/*Mise en place des étoiles bleues */
+.full-stars-article
+{
+    font-size: 2em;
+    text-decoration: none;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color:#0065FC ;
+    display: flex;
+}
+
+/*Mise en place des étoiles grises */
+.stars-article
+{
+    font-size: 2em;
+    text-decoration: none;
+    position: absolute;
+    top: 60%;
+    left: 27.5%;
+    color:#dadada
+}
+
+.stars-article-mer
+{
+    font-size: 2em;
+    text-decoration: none;
+    position: absolute;
+    top: 60%;
+    left: 23%;
+    color:#dadada
+}
+/*Afficher plus dans l'article */
+article h3
+{
+    font-size: 3em;
+    padding-left: 1%;
+    font-weight: 800;
+}
+
+/*Marge de la section vieux port */
+.activiteMarseille
+{
+margin: 7%;
+}
+
+/*Création des cases pour les différentes activités */
+.vieuxPort
+{
+    height: 600px;
+    position: relative;
+    border-radius: 100px;
+    box-shadow: 0px 6px 30px #989ca3;
+    margin-bottom: 15%;
+    overflow: hidden;
+}
+
+/*La case pour le titre */
+.title-vieuxPort
+{
+    background-color:white;
+    height: 220px;
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+}
+/*Mise en place du design du tite */
+.vieuxPort h3
+{
+ font-size: 3em;
+ width: 100%;
+ color: black;
+ margin-top: 5%;
+}
+.title-calenques h3
+{
+    font-size: 3em;
+    width: 100%;
+    color: black;
+    margin-top: 1%;
+
+}
+
+/*Mettre les images */
+.imgVieuxPort
+{
+    width: 120%;
+    height: 120%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: -2%;
+    position: absolute;
+    top: -10%;
+    left: 0%;
+}
+
+.fortPomegues
+{
+    width: 120%;
+    height: 250%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: -2%;
+    position: absolute;
+    top: -80%;
+    left: 0%;
+}
+.ilesFrioul
+{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: -2%;
+    position: absolute;
+    top: 0%;
+    left: 0%;  
+}
+.eglise
+{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: -2%;
+    position: absolute;
+    top: 0%;
+    left: 0%; 
+}
+
+.parcCalenques
+{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: -2%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.parc
+{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: -2%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+/*Mettre couleur de fonds dans le footer */
+footer
+{
+    background-color: #F2F2F2;
+    height: 120%;
+    width: 100%;
+}
+
+.about
+{
+    margin-left: 7%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.about h4
+{
+    font-size: 4em;
+    margin-top: -5%;
+}
+
+.about a
+{
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+.place
+{
+    margin-top: 7%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.place h4
+{
+    font-size: 4em;
+    margin-top: -5%;
+}
+
+.place a
+{
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5%;
