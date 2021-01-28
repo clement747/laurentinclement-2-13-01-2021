@@ -7,7 +7,7 @@
 body
 {
         font-family: 'Raleway', sans-serif;
-        margin: 0;
+        margin: 0%;
 }
 
 
@@ -26,7 +26,7 @@ body
 #menu a
 {
     font-family:'Raleway', sans-serif;
-    font-size: 2.5em;
+    font-size: 1.5em;
     text-decoration:solid;
     color:#0065FC;
     font-weight: 800;
@@ -36,9 +36,8 @@ body
 /*Gérer le logo */
 .reservia
 {
-    height: 100px;
-    width: 200px;
-    padding-left: 100px;
+    height: 49px;
+    padding-left: 20px;
 }
 
 /*Que t'on menu soit en ligne */
@@ -46,37 +45,38 @@ nav ul
 {
     font-size: 2.5em;
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
-    margin-left: -5%;
-    width: auto;
+    padding-left: 0px;
+
     
 }  
 
 /*Créer des espace entre les sections du menu  */
 nav li
 {
-    display: inline block;
     border-bottom: 10px solid #F2F2F2;
     text-align: center;
-    width: 100%;
-    padding: 10px 10px 30px 10px ;
+    width: 50%;
+    padding: 10px 0px 30px 0px ;
     
 }
 
 .title-blue
 {
     color: #307ff5;
+    font-size: 0.5em;
 }
 .blue-border
 {
-    border-bottom: 10px solid  #307ff5;
+    border-bottom: 5px solid  #307ff5;
 }
 /*Gestion du design des liens des menus  */
 nav a 
 {
     color: black;
     text-decoration: none;
-    padding-bottom: 25px ;
+    font-size: 0.5em;
     
 }
 /*Voir comment faire les carrés et les lignes en dessous des menus.  */
@@ -85,7 +85,7 @@ nav a
 
 #holidays
 {
-    margin: 10%;
+    margin: 5%;
     align-items: center;
 }
 
@@ -93,7 +93,7 @@ nav a
 h1
 {
 text-align: justify;
-font-size: 2.5em;
+font-size: 1.3em;
 font-weight: 800;
 text-decoration: none;
 padding-right: 3%;
@@ -101,8 +101,7 @@ padding-right: 3%;
 
 #holidays p 
 {
-    padding-left: 0%;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 /*Mettre le fond girs à l'icone + design général conentenant.  */
 #searchBox
@@ -110,13 +109,12 @@ padding-right: 3%;
     background-color:#F2F2F2;
     display: flex;
     border-radius: 30px;
-    height: 140px;
+    height: 53px;
     align-items: center;
-    width: 90%;
+    width: 62%;
     padding-left: 5%;
     margin-top: 10%;
     position: relative;
-    margin-left: 0%;
 }
 
 /*Icone modifier couleur + taille + ajouter marge gauche */
@@ -124,19 +122,19 @@ padding-right: 3%;
 /*barre de recherche taille */
 .search-text
 {
-    height: 125px;
-    width: 670px;
+    height: 39px;
+    width: 245px;
     border: 3px solid #F2F2F2;
     position: relative;
     padding-top: 8px;
-    margin-left: 13%;
+    margin-left: 19%;
 }
 
 /*Style de l'écriture dans la barre */
 ::placeholder
 {
     color: black;
-    font-size: 3em;
+    font-size: 1em;
     font-weight: 800;
     text-align: left;
     padding-left: 30px;
@@ -148,18 +146,18 @@ padding-right: 3%;
 {
    color: white;
    float: right;
-   height: 140px;
-   width: 150px;
+   height: 52px;
+   width: 55px;
    border-radius: 30%;    
    background: #307ff5;
    display: flex;
    justify-content: center;
    align-items: center;
-   font-size: 200%;
+   font-size: 150%;
    text-decoration: none;
    position: absolute;
    top: 0px;
-   left: 90%;
+   left: 120%;
 }
 
 #search
@@ -170,30 +168,25 @@ padding-right: 3%;
 /*Icone de géolocalisation */
 #iconelocalisation
 {
-    font-size: 300%;
-    background:#F2F2F2;
-    width:100%;
-    height: 110px;
-    display: flex;
+   font-size: 150%;
+   display: flex;
    align-items: center;
    position: absolute;
-   left: 6%;
-   margin-right: 5%;
-    }
+   left: 10%;
+}
 
 /*marge pour la section filtre */
 #filters
 {
-    margin-left: 10%;
+    margin-left: 7%;
     align-items: center;
 }
 
 #filters h2
 {
-    margin-top: -3%;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
     font-weight: 800;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 /*Aligner sur tel filtre eco et famille */
 .filtereco
@@ -205,14 +198,14 @@ padding-right: 3%;
 /*Créer bouton pour le filtre economique */
 .designFilter
 {
-    border: 5px solid #F2F2F2;
+    border: 3px solid #F2F2F2;
     border-radius: 100px;
-    height: 99px;
+    height: 54px;
     display: flex;
     position: relative;
-    margin-right: 5%;
     margin-top: 5%;
-    padding-right: 2%;   
+    padding-right: 2%;
+    margin-right: 4%;   
     
 }
 
@@ -221,17 +214,16 @@ padding-right: 3%;
 {
     color:#0065FC;
     background-color: #DEEBFF ;
-    font-size: 2.5em;
-    height: 120px;
-    width: 120px;
+    font-size: 1.5em;
+    height: 66px;
+    width: 65px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 0;
     position: absolute;
-    top: -9px;
-    left: -2px;
+    top: -6px;
+    left: -4px;
 }
 
 
@@ -239,15 +231,14 @@ padding-right: 3%;
 
 #filters a
 {
-    font-size: 2.5em;
+    font-size: 1em;
     font-weight: 800;
     color: black;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 140px;
-    padding-right: 20px;
+    padding-left: 64px;
 }
 
 /*Mettre le aside devant l'article */
@@ -265,14 +256,15 @@ padding-right: 3%;
    align-items: center;
    padding-right: 50px;
    position: relative;
+   margin-top: 10px;
    }
 
 /*Mettre info et texte cote à cote */
 .info p
 {
    display: flex;
-   font-size: 3em;
-   padding-left: 130px;   
+   font-size: 1em;
+   padding-left: 42px;   
 }
 #famille
 {
@@ -283,11 +275,11 @@ padding-right: 3%;
 #design-icone-info
 {
 color: #0065FC;
-font-size: 2em;
+font-size: 1em;
 border: 2px solid #6b6f75 ;
 border-radius: 50%;
-width: 70px;
-height: 65px;
+width: 22px;
+height: 21px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -320,10 +312,10 @@ aside
 /*Gestion de l'icone "growth" */
 .growth
 {
-    font-size: 400%;
+    font-size: 220%;
     position: absolute;
     left: 90%;
-    top: 27%;
+    top: 21%;
 }
 
 /*Définition des marges dans mon aside */
@@ -338,12 +330,12 @@ aside
 .hotelPopulaire
 {
     background-color: white;
-    border-radius: 50px;
+    border-radius: 20px;
     box-shadow: 0px 6px 30px #989ca3;
     position: relative;
     margin-bottom: 10%;
     overflow: hidden;
-    border: 17px solid white;   
+    border: 5px solid white;   
      
 }
 
@@ -351,37 +343,33 @@ aside
 figure
 {
     display: flex;
-    height: 360px; 
+    height: 120px; 
 }
 
 /*Redimensionner et repositionner image matin */
 .matin
 {
     position: absolute;
-    top: 1px;
+    top: 0px;
     left: -2px;
-    height: 100%;
-    border-radius: 50px;
+    height: 105%;
 }
 /*Redimensionner et repositionner image hotel eau */
 .eau
 {
     position: absolute;
-    top: 1px;
-    left: -2px;
+    top: 0px;
+    left: -30px;
     border-radius: 50px;
-    height: 100%;
-    width: 500px; 
+    height: 110%; 
 }
 
 /*Redimensionner et repositionner image hotel bleu et blanc */
 .bleuEtBlanc
 {
     position: absolute;
-    top: -7%;
+    top: -54%;
     left: 0%;
-    border-radius: 50px;
-    height: 109%;
     width: 59%;
 
 }
@@ -401,29 +389,28 @@ figcaption
 {
     background-color: white;
     position: absolute;
-    left: 51%;
+    left: 49%;
     height: 100%;
-    width:57%;
+    width:52%;
     top: 0%;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-
 }
 
 /*Mettre en forme le texte titre  */
 figcaption h3
 {
-    font-size: 2.5em;
+    font-size: 1em;
     color: black;
-    padding-left: 40px;
+    padding-left: 11px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*Mettre en forme les textes p  */
 figcaption p
 {
     color: black;
-    font-size: 2em;
-    padding-left: 40px;
+    font-size: 0.8em;
+    padding-left: 12px;
 
 }
 
@@ -431,8 +418,8 @@ figcaption p
 .full-stars
 {
     color: #0065FC ;
-    font-size: 2em;
-    padding: 20px 0 0 40px;
+    font-size: 1em;
+    padding: 24px 0 0 12px;
     display: flex;
 }
 
@@ -455,8 +442,8 @@ figcaption p
 
 h3
 {
-    font-size: 3em;
-    padding-left: 7%;
+    font-size: 1.5em;
+    padding-left: 10%;
     font-weight: 800;
 }
 
@@ -472,69 +459,60 @@ article
 .hotel
 {
     background-color: white;
-    border-radius: 100px;
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
-    height: 700px;
+    height: 180px;
     margin-bottom: 10%;
     box-shadow: 0px 6px 30px #989ca3;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
+    border: 5px solid white;
 }
 
 /*Dimensionner l'image */
 .port
 {
     position: absolute;
-    width: 96%;
-    height: 80%;
-    border-radius: 100px;
-    padding: 20px 20px 0 20px;
+    width: 102%;
+    height: 82%;
+    top: -6%;
 }
 
 .cannebiere
 {
         position: absolute;
-        width: 96%;
-        height: 80%;
-        border-radius: 100px;
-        padding: 20px 20px 0 20px;
+        width: 100%;
+        height: 93%;
+        top: -10%;
 }
 
 .mouettes
 {
     position: absolute;
-    width: 96%;
-    height: 80%;
-    border-radius: 100px;
-    padding: 20px 20px 0 20px;
+    width: 100%;
+    height: 88%;
+    top: -14%;
 }
 
 .mer
 {
     position: absolute;
-    width: 96%;
-    height: 90%;
-    border-radius: 100px;
-    padding: 20px 20px 0 20px;
+    width: 100%;
+    top: -47%;
+
 }
 .panier
 {
     position: absolute;
-    width: 96%;
-    height: 90%;
-    border-radius: 100px;
-    padding: 20px 20px 0 20px;  
+    width: 100%; 
 }
 
 .Amina
 {
     position: absolute;
-    width: 95%;
-    height: 95%;
-    border-radius: 100px;
-    padding: 20px 25px 0 20px;
-    top: 0%;
+    width: 100%;
+    top: -101%;
     
 }
 
@@ -548,51 +526,48 @@ article
 .description
 {
     background-color:white;
-    width: 100%;
-    height: 40%;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    width: 101%;
+    height: 46%;
     position: absolute;
-    top: 65%;
-    left: 0%;
+    top: 60%;
+    left: -1%;
 }
 
 /*Mise en place du titre hébergement à Marseille */
 h2
 {
-    font-size: 4em;
+    font-size: 1.5em;
     margin-bottom: 10%;
 }
 
 /*Mise en place du titre dans chaque box */
 .description h3
 {
-  font-size: 3em;
+  font-size: 1em;
   color: black;
   position: absolute;
-  top: -10%;
-  left: 8.5%;
+  top: -12%;
+  left: 3.5%;
 }
 
 /*Mise en place du titre dans chaque box */
 .description p 
 {
-  font-size: 2.5em;
+  font-size: 0.8em;
   color: black;
-  padding-left: 50px;
   position: absolute;
-  top: 19%;
+  top: 24%;
   left: 5%;
 }
 
 /*Mise en place des étoiles bleues */
 .full-stars-article
 {
-    font-size: 2em;
+    font-size: 0.8em;
     text-decoration: none;
     position: absolute;
-    top: 60%;
-    left: 10%;
+    top: 68%;
+    left: 4%;
     color:#0065FC ;
     display: flex;
 }
@@ -760,13 +735,13 @@ footer
 
 .about h4
 {
-    font-size: 4em;
+    font-size: 2em;
     margin-top: -5%;
 }
 
 .about a
 {
-    font-size: 3em;
+    font-size: 2em;
     color: black;
     text-decoration: none;
     margin-bottom: 5%;
@@ -781,13 +756,13 @@ footer
 
 .place h4
 {
-    font-size: 4em;
+    font-size: 2em;
     margin-top: -5%;
 }
 
 .place a
 {
-    font-size: 3em;
+    font-size: 2em;
     color: black;
     text-decoration: none;
     margin-bottom: 5%;
@@ -951,7 +926,7 @@ footer
     #design-icone-info 
     
     {
-        font-size: 1em;
+        font-size: 2em;
         width: 36px;
         height: 31px;
         left: 0%;
