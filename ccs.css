@@ -79,15 +79,6 @@ nav a
     padding-bottom: 25px ;
     
 }
-
-/*Gérer le design des menus au survol */
-
-nav li:hover 
-{
-    border-bottom: 10px solid #DEEBFF;
-    color: #760001 ;
-}
-
 /*Voir comment faire les carrés et les lignes en dessous des menus.  */
 
 /*Définir marge pour la partie texte et barre de recherche.  */
@@ -171,6 +162,11 @@ padding-right: 3%;
    left: 90%;
 }
 
+#search
+{
+    display: none;
+}
+
 /*Icone de géolocalisation */
 #iconelocalisation
 {
@@ -232,7 +228,6 @@ padding-right: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: -50px;
     padding-top: 0;
     position: absolute;
     top: -9px;
@@ -796,3 +791,460 @@ footer
     color: black;
     text-decoration: none;
     margin-bottom: 5%;
+
+}
+
+/*Adapter le site pour les ordinateurs */
+@media all and (min-width:1024px)
+{
+   
+    #menu
+    {
+    margin-top: 3.4%;
+    
+    }
+    .reservia
+    {
+        height: 8%;
+        width: 8%;
+        padding-left: 3%;
+    }
+
+    #menu a
+    {
+        font-size: 1.3em;
+        padding-right: 5%;
+        margin-top: 0.5%;
+    }
+
+    nav ul
+    {
+
+    font-size: 1.3em;
+    position: absolute;
+    top: -3%;
+    left: 62%;
+        
+    }
+
+    nav li
+    {
+        display: inline block;
+        border-bottom: 0px;
+        text-align: center;
+        width: 100%;
+        padding: 74px 34px 0px 56px ;
+    }
+
+    .blue-border
+    {
+        border-bottom: 0px;
+        border-top: 3.5px solid #307ff5;
+    }
+
+    #holidays
+    {
+        margin-left: 3%;
+        margin-top: -6%;
+    }
+
+    h1
+    {
+        font-size: 1.5em;
+    }
+
+    #holidays p
+    
+    {
+        margin-top: -1%;
+    }
+
+    #searchBox
+    {
+        margin-top: 2%;
+        height: 59px;
+        width: 23%;
+    }
+
+    .search-text 
+    {
+        height: 44px;
+        width: 287px;
+        border: 3px solid #F2F2F2;
+        position: relative;
+        padding-top: 8px;
+        margin-left: 0%;
+
+    }
+
+    #iconelocalisation 
+    {
+        font-size: 180%;
+        height: 55px;
+    }
+
+    .search_btn 
+    {
+        height: 59px;
+        width: 79px;
+        left: 92%;
+    }
+
+    ::placeholder
+    {
+        font-size: 1.5em;
+    }
+
+    #search
+    {
+        display: inline;
+    }
+
+    .glass
+    {
+        display: none !important;
+    }
+
+    #filters
+    {
+        margin-left: 4%;
+        margin-top:-8%;
+    }
+
+    .filtereco
+    {
+        margin-top: -15%;
+        margin-left: 7%;
+        display: flex;
+        flex-wrap: initial;
+    }
+
+    #filters h2
+    {
+     
+        font-size: 1.5em;
+    }
+
+    .designFilter
+    {
+
+    margin-right: 2%;
+    margin-top: 8%;
+    height: 44px;  
+    
+    }
+
+    #design-icone
+    {
+        font-size: 1.5em;
+        height: 54px;
+        width: 57px;
+        top: -5px;
+    }
+
+    #filters a 
+    {
+        font-size: 1.5em;
+        padding-left: 75px;
+    }
+
+    #design-icone-info 
+    
+    {
+        font-size: 1em;
+        width: 36px;
+        height: 31px;
+        left: 0%;
+
+    }
+
+    .info
+    {
+        justify-content: end;
+        padding-left: 4%;
+    }
+    .info p 
+    {
+        font-size: 1.5em;
+        padding-left: 0px;
+    }
+
+    .hebergement 
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    article h2
+    {
+        font-size: 2em;
+        margin-bottom: 6%;
+        width: 100%;
+        padding-left: 2%;
+        padding-top: 5%;
+    }
+
+    article
+     {
+        width: 80%;
+        margin-left: 2%;
+        margin-right: 4%;
+        background-color:#F2F2F2 ;
+        border-radius: 100px;
+        padding-left: 2%;
+        margin-top: 0%;
+    }
+    aside
+        
+        {
+            width: 44%;
+            border-radius: 100px;
+            margin-right: 4%;
+        }
+
+    aside h2
+    {
+        font-size: 2em;
+    }
+
+    .growth 
+    {
+        font-size: 230%;
+    }
+        
+    #heb-mars
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hotel 
+    {
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        height: 230px;
+        width: 31%;
+        margin-right: 2%;
+    }
+
+    .cannebiere 
+        {
+            position: absolute;
+            width: 96%;
+            height: 81%;
+            border-radius: 30px;
+            padding: 6px 2px 0 6px;
+        }
+    
+        .port 
+        {
+            position: absolute;
+            width: 96%;
+            height: 81%;
+            border-radius: 28px;
+            padding: 7px 2px 0 6px;  
+        }
+        
+        .mouettes 
+        {
+            width: 96%;
+            height: 79%;
+            border-radius: 28px;
+            padding: 6px 2px 1px 6px;   
+        }
+        
+        .mer 
+        {
+            width: 96%;
+            height: 79%;
+            border-radius: 28px;
+            padding: 6px 2px 1px 6px;   
+        }
+
+        .panier
+        {
+            width: 96%;
+            height: 79%;
+            border-radius: 28px;
+            padding: 6px 2px 1px 6px;  
+        }
+
+        .Amina 
+        {
+            width: 96%;
+            height: 79%;
+            border-radius: 28px;
+            padding: 6px 2px 1px 6px;    
+        }
+
+        .description h3
+        {
+            font-size: 1.2em;
+            top: -17%;
+            left: 3.5%;
+            top: 20%;
+        }
+
+        
+    .description p
+        {
+            font-size: 0.8em;
+            top: 22%;
+            left: -15.5%;
+            top: 23%;
+            padding-left: 21%
+        }
+            
+
+        .full-stars-article
+          
+        {
+            font-size: 0.8em;
+            top: 61%;
+            left: 4%;
+        }
+        
+        .hotelPopulaire
+        {
+            height: 150px;
+            border: 6px solid white;
+            margin-bottom: 8%;
+            border-radius: 25px;
+        }
+
+        .matin 
+        {
+
+            border-radius: 20px;
+            width: 54%
+        }
+
+        .eau 
+        {
+            left: -55px;
+            border-radius: 0;
+            width: 80%;
+        }
+
+        .bleuEtBlanc
+        {
+            left: 0;
+            border-radius: 0px;
+            height: 123%;
+            width: 56%;
+        }
+        
+        figcaption h3
+        {
+            font-size: 1em;
+            padding-left: 16px;
+        }
+
+        figcaption 
+        {
+            width: 49%;
+            top: 0%;
+            border-bottom-right-radius: 0%;
+            border-bottom-left-radius: 0%;
+
+        }
+
+        figcaption p
+        {
+            font-size: 1em;
+            padding-left: 16px;
+        }
+
+        .full-stars 
+        {
+            font-size: 1em;
+            padding: 15px 0 0 14px;
+
+        } 
+
+        h3 
+         {
+            font-size: 1.5em;
+            margin-top: 12%;
+            padding-left: 10%
+
+         } 
+         
+         article h3 {
+            font-size: 1.5em;
+            margin-left: 1%;
+            margin-top: -5%;
+            margin-bottom: 4%;
+
+            }
+
+
+
+
+        .activiteMarseille
+            {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 3%;
+            margin-right: 4%;
+            }
+
+            .activiteMarseille h2 
+            {
+                width: 100%;
+                font-size: 2em;
+                margin-bottom: 3%;
+            }
+
+
+            footer
+            {
+                display: flex;
+            }
+
+            .about
+            {
+                margin-left: 7%;
+                padding-top: 4%;
+                margin-right: 3%;
+
+            }
+
+            .about h4 
+            {
+                font-size: 2em;
+
+            }
+            .about a 
+            {
+                font-size: 1.5em;
+                margin-bottom: 10%;
+
+            }
+
+            .place 
+            {
+                margin-top: 4.5%;
+
+            }
+
+            .place h4 
+            {
+                font-size: 2em;
+                margin-top: -7%;
+                margin-bottom: 11%;
+
+            }
+
+            .place a
+            {
+                font-size: 1.5em;
+                margin-bottom: 12%;
+
+            }
+
+                
+            
+
+}
