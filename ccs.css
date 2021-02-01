@@ -210,7 +210,7 @@ padding-right: 3%;
 }
 
 /*Design des icones des filtres */
-#design-icone
+.design-icone
 {
     color:#0065FC;
     background-color: #DEEBFF ;
@@ -898,7 +898,7 @@ footer
 
     }
 
-    #design-icone
+    .design-icone
     {
         font-size: 1.5em;
         height: 54px;
