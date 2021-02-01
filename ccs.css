@@ -254,7 +254,6 @@ padding-right: 3%;
    display: flex;
    justify-content: center;
    align-items: center;
-   padding-right: 50px;
    position: relative;
    margin-top: 10px;
    }
@@ -546,7 +545,7 @@ h2
   font-size: 1em;
   color: black;
   position: absolute;
-  top: -12%;
+  top: -7%;
   left: 3.5%;
 }
 
@@ -595,7 +594,7 @@ h2
 /*Afficher plus dans l'article */
 article h3
 {
-    font-size: 3em;
+    font-size: 1em;
     padding-left: 1%;
     font-weight: 800;
 }
@@ -609,11 +608,11 @@ margin: 7%;
 /*Création des cases pour les différentes activités */
 .vieuxPort
 {
-    height: 600px;
+    height: 193px;
     position: relative;
-    border-radius: 100px;
+    border-radius: 20px;
     box-shadow: 0px 6px 30px #989ca3;
-    margin-bottom: 15%;
+    margin: 5% 2% 6% 3%;
     overflow: hidden;
 }
 
@@ -621,19 +620,18 @@ margin: 7%;
 .title-vieuxPort
 {
     background-color:white;
-    height: 220px;
     width: 100%;
+    height: 100%;
     position: absolute;
     top: 70%;
     left: 0%;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
 
 }
+ 
 /*Mise en place du design du tite */
 .vieuxPort h3
 {
- font-size: 3em;
+ font-size: 1em;
  width: 100%;
  color: black;
  margin-top: 5%;
@@ -650,10 +648,7 @@ margin: 7%;
 /*Mettre les images */
 .imgVieuxPort
 {
-    width: 120%;
-    height: 120%;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
+    width: 100%;
     margin-top: -2%;
     position: absolute;
     top: -10%;
@@ -674,20 +669,14 @@ margin: 7%;
 .ilesFrioul
 {
     width: 100%;
-    height: 100%;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
     margin-top: -2%;
     position: absolute;
-    top: 0%;
+    top: -9%;
     left: 0%;  
 }
 .eglise
 {
     width: 100%;
-    height: 100%;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
     margin-top: -2%;
     position: absolute;
     top: 0%;
@@ -696,25 +685,19 @@ margin: 7%;
 
 .parcCalenques
 {
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
+    height: 114%;
     margin-top: -2%;
     position: absolute;
-    top: 0%;
+    top: -17%;
     left: 0%;
 }
 
 .parc
 {
     width: 100%;
-    height: 100%;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
     margin-top: -2%;
     position: absolute;
-    top: 0%;
+    top: -12%;
     left: 0%;
 }
 /*Mettre couleur de fonds dans le footer */
@@ -735,17 +718,18 @@ footer
 
 .about h4
 {
-    font-size: 2em;
-    margin-top: -5%;
+    font-size: 1.5em;
+    margin-top: 6%;
 }
 
 .about a
 {
-    font-size: 2em;
+    font-size: 1em;
     color: black;
     text-decoration: none;
     margin-bottom: 5%;
 }
+
 .place
 {
     margin-top: 7%;
@@ -756,13 +740,13 @@ footer
 
 .place h4
 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: -5%;
 }
 
 .place a
 {
-    font-size: 2em;
+    font-size: 1em;
     color: black;
     text-decoration: none;
     margin-bottom: 5%;
@@ -776,8 +760,8 @@ footer
     #menu
     {
     margin-top: 3.4%;
-    
     }
+
     .reservia
     {
         height: 8%;
@@ -789,17 +773,17 @@ footer
     {
         font-size: 1.3em;
         padding-right: 5%;
-        margin-top: 0.5%;
+        margin-top: 0%;
     }
 
     nav ul
     {
-
-    font-size: 1.3em;
+    font-size: 2.3em;
     position: absolute;
-    top: -3%;
-    left: 62%;
-        
+    top: 0%;
+    left: 55%;
+    margin: 0%;
+    flex-wrap: inherit;  
     }
 
     nav li
@@ -808,13 +792,14 @@ footer
         border-bottom: 0px;
         text-align: center;
         width: 100%;
-        padding: 74px 34px 0px 56px ;
+        padding: 53.5px 34px 0px 56px;
     }
 
     .blue-border
     {
         border-bottom: 0px;
         border-top: 3.5px solid #307ff5;
+        padding: 52px 34px 0px 56px;
     }
 
     #holidays
@@ -861,8 +846,9 @@ footer
     .search_btn 
     {
         height: 59px;
-        width: 79px;
+        width: 159px;
         left: 92%;
+        border-radius: 9px;
     }
 
     ::placeholder
@@ -888,7 +874,7 @@ footer
 
     .filtereco
     {
-        margin-top: -15%;
+        margin-top: -3%;
         margin-left: 7%;
         display: flex;
         flex-wrap: initial;
@@ -898,6 +884,8 @@ footer
     {
      
         font-size: 1.5em;
+        position: absolute;
+        top: 46%;
     }
 
     .designFilter
@@ -906,7 +894,7 @@ footer
     margin-right: 2%;
     margin-top: 8%;
     height: 44px;  
-    
+
     }
 
     #design-icone
@@ -926,10 +914,11 @@ footer
     #design-icone-info 
     
     {
-        font-size: 2em;
+        font-size: 1em;
         width: 36px;
         height: 31px;
         left: 0%;
+        top: 28%;
 
     }
 
@@ -938,6 +927,7 @@ footer
         justify-content: end;
         padding-left: 4%;
     }
+
     .info p 
     {
         font-size: 1.5em;
@@ -964,22 +954,27 @@ footer
         width: 80%;
         margin-left: 2%;
         margin-right: 4%;
-        background-color:#F2F2F2 ;
+        background-color:#F2F2F2;
         border-radius: 100px;
         padding-left: 2%;
         margin-top: 0%;
     }
+
     aside
         
-        {
-            width: 44%;
-            border-radius: 100px;
-            margin-right: 4%;
-        }
+    {
+
+    width: 44%;
+    border-radius: 100px;
+    margin-right: 4%;
+
+    }
 
     aside h2
     {
+
         font-size: 2em;
+
     }
 
     .growth 
@@ -995,121 +990,131 @@ footer
 
     .hotel 
     {
+
         border-radius: 30px;
         display: flex;
         flex-direction: row;
         height: 230px;
-        width: 31%;
+        width: 30%;
         margin-right: 2%;
+        border: 5px solid white;
+
     }
 
     .cannebiere 
         {
+
             position: absolute;
-            width: 96%;
-            height: 81%;
+            width: 101%;
             border-radius: 30px;
             padding: 6px 2px 0 6px;
+            left: -3%;
+
         }
     
         .port 
         {
+
             position: absolute;
             width: 96%;
-            height: 81%;
-            border-radius: 28px;
-            padding: 7px 2px 0 6px;  
+            top: -11%;
+
         }
         
         .mouettes 
         {
-            width: 96%;
-            height: 79%;
-            border-radius: 28px;
-            padding: 6px 2px 1px 6px;   
+
+            width: 101%; 
+
         }
         
         .mer 
         {
-            width: 96%;
-            height: 79%;
-            border-radius: 28px;
-            padding: 6px 2px 1px 6px;   
+
+            width: 101%;
+            top:-25%; 
+
         }
 
         .panier
         {
-            width: 96%;
-            height: 79%;
-            border-radius: 28px;
-            padding: 6px 2px 1px 6px;  
+
+            width: 101%;
+
         }
 
         .Amina 
         {
-            width: 96%;
-            height: 79%;
-            border-radius: 28px;
-            padding: 6px 2px 1px 6px;    
+
+            width: 101%;
+            top:-52%;  
+
         }
 
         .description h3
         {
+
             font-size: 1.2em;
             top: -17%;
             left: 3.5%;
             top: 20%;
+
         }
 
         
     .description p
         {
+
             font-size: 0.8em;
             top: 22%;
             left: -15.5%;
             top: 23%;
-            padding-left: 21%
+            padding-left: 21%;
+
         }
             
 
         .full-stars-article
-          
         {
+
             font-size: 0.8em;
             top: 61%;
             left: 4%;
+
         }
         
         .hotelPopulaire
         {
+
             height: 150px;
             border: 6px solid white;
             margin-bottom: 8%;
             border-radius: 25px;
+
         }
 
         .matin 
         {
 
             border-radius: 20px;
-            width: 54%
+            width: 54%;
         }
 
         .eau 
         {
             left: -55px;
-            border-radius: 0;
+            border-radius: 0%;
             width: 80%;
         }
 
         .bleuEtBlanc
         {
-            left: 0;
+            left: 0%;
             border-radius: 0px;
             height: 123%;
             width: 56%;
         }
-        
+
         figcaption h3
         {
             font-size: 1em;
@@ -1142,27 +1147,24 @@ footer
          {
             font-size: 1.5em;
             margin-top: 12%;
-            padding-left: 10%
+            padding-left: 10%;
 
          } 
          
-         article h3 {
+         article h3 
+         {
             font-size: 1.5em;
             margin-left: 1%;
             margin-top: -5%;
             margin-bottom: 4%;
-
-            }
-
-
-
+         }
 
         .activiteMarseille
             {
             display: flex;
             flex-wrap: wrap;
-            margin-left: 3%;
-            margin-right: 4%;
+            margin: 1% 1% 9% 1%;
+            
             }
 
             .activiteMarseille h2 
@@ -1170,19 +1172,58 @@ footer
                 width: 100%;
                 font-size: 2em;
                 margin-bottom: 3%;
+                padding-left: 3%;
             }
 
+            figure
+            {
+                width : 244px;
+            }
+
+            .vieuxPort
+            {
+                margin-right: -4%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 0%;
+            }
+
+            .big
+            {
+                height: 450px;
+            }
+
+            .big-title
+            {
+                height: 20%;
+                top:88%;
+            }
+
+            .imgVieuxPort
+            {
+                height: 100%;
+            }
+            
+            .activity
+            {
+                margin-right: 1%;
+                margin-left: 6%;
+
+            }
 
             footer
             {
                 display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-top: -10%;
             }
 
             .about
             {
-                margin-left: 7%;
-                padding-top: 4%;
-                margin-right: 3%;
+                margin-left: 0%;
+                padding-top: 1%;
+                margin-right: 0%;
 
             }
 
@@ -1200,7 +1241,7 @@ footer
 
             .place 
             {
-                margin-top: 4.5%;
+                margin-top: 3.5%;
 
             }
 
@@ -1218,7 +1259,11 @@ footer
                 margin-bottom: 12%;
 
             }
-
+            
+            .help
+            {
+                margin-top: 3%;
+            }
                 
             
 
