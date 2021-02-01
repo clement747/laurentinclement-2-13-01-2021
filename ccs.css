@@ -166,7 +166,7 @@ padding-right: 3%;
 }
 
 /*Icone de géolocalisation */
-#iconelocalisation
+#location
 {
    font-size: 150%;
    display: flex;
@@ -242,7 +242,7 @@ padding-right: 3%;
 }
 
 /*Mettre le aside devant l'article */
-.hebergement
+.accomodation
 {
     display: flex;
     flex-direction: column-reverse;
@@ -326,7 +326,7 @@ aside
 }
 
 /*Création de mes cases hébergement */
-.hotelPopulaire
+.famous
 {
     background-color: white;
     border-radius: 20px;
@@ -346,7 +346,7 @@ figure
 }
 
 /*Redimensionner et repositionner image matin */
-.matin
+.morning
 {
     position: absolute;
     top: 0px;
@@ -354,7 +354,7 @@ figure
     height: 105%;
 }
 /*Redimensionner et repositionner image hotel eau */
-.eau
+.watter
 {
     position: absolute;
     top: 0px;
@@ -364,7 +364,7 @@ figure
 }
 
 /*Redimensionner et repositionner image hotel bleu et blanc */
-.bleuEtBlanc
+.white
 {
     position: absolute;
     top: -54%;
@@ -373,7 +373,7 @@ figure
 
 }
 
-.stars-bleuEtBlanc
+.stars-white
 {
     padding-bottom: 0;
     color:#dadada ;
@@ -470,7 +470,7 @@ article
 }
 
 /*Dimensionner l'image */
-.port
+.harbor
 {
     position: absolute;
     width: 102%;
@@ -486,7 +486,7 @@ article
         top: -10%;
 }
 
-.mouettes
+.seagulls
 {
     position: absolute;
     width: 100%;
@@ -494,14 +494,14 @@ article
     top: -14%;
 }
 
-.mer
+.wed
 {
     position: absolute;
     width: 100%;
     top: -47%;
 
 }
-.panier
+.basket
 {
     position: absolute;
     width: 100%; 
@@ -600,13 +600,13 @@ article h3
 }
 
 /*Marge de la section vieux port */
-.activiteMarseille
+.activityMarseille
 {
 margin: 7%;
 }
 
 /*Création des cases pour les différentes activités */
-.vieuxPort
+.old
 {
     height: 193px;
     position: relative;
@@ -617,7 +617,7 @@ margin: 7%;
 }
 
 /*La case pour le titre */
-.title-vieuxPort
+.title-old
 {
     background-color:white;
     width: 100%;
@@ -629,7 +629,7 @@ margin: 7%;
 }
  
 /*Mise en place du design du tite */
-.vieuxPort h3
+.old h3
 {
  font-size: 1em;
  width: 100%;
@@ -646,7 +646,7 @@ margin: 7%;
 }
 
 /*Mettre les images */
-.imgVieuxPort
+.imgold
 {
     width: 100%;
     margin-top: -2%;
@@ -837,10 +837,11 @@ footer
 
     }
 
-    #iconelocalisation 
+    #location 
     {
         font-size: 180%;
         height: 55px;
+        left: 7%;
     }
 
     .search_btn 
@@ -934,7 +935,7 @@ footer
         padding-left: 0px;
     }
 
-    .hebergement 
+    .accommodation
     {
         display: flex;
         flex-direction: row;
@@ -1012,7 +1013,7 @@ footer
 
         }
     
-        .port 
+        .harbor
         {
 
             position: absolute;
@@ -1021,14 +1022,14 @@ footer
 
         }
         
-        .mouettes 
+        .seagulls
         {
 
             width: 101%; 
 
         }
         
-        .mer 
+        .wed
         {
 
             width: 101%;
@@ -1036,7 +1037,7 @@ footer
 
         }
 
-        .panier
+        .basket
         {
 
             width: 101%;
@@ -1083,7 +1084,7 @@ footer
 
         }
         
-        .hotelPopulaire
+        .famous
         {
 
             height: 150px;
@@ -1093,21 +1094,21 @@ footer
 
         }
 
-        .matin 
+        .morning 
         {
 
             border-radius: 20px;
             width: 54%;
         }
 
-        .eau 
+        .watter
         {
             left: -55px;
             border-radius: 0%;
             width: 80%;
         }
 
-        .bleuEtBlanc
+        .white
         {
             left: 0%;
             border-radius: 0px;
@@ -1159,7 +1160,7 @@ footer
             margin-bottom: 4%;
          }
 
-        .activiteMarseille
+        .activityMarseille
             {
             display: flex;
             flex-wrap: wrap;
@@ -1167,7 +1168,7 @@ footer
             
             }
 
-            .activiteMarseille h2 
+            .activityMarseille h2 
             {
                 width: 100%;
                 font-size: 2em;
@@ -1180,7 +1181,7 @@ footer
                 width : 244px;
             }
 
-            .vieuxPort
+            .old
             {
                 margin-right: -4%;
                 display: flex;
@@ -1199,9 +1200,10 @@ footer
                 top:88%;
             }
 
-            .imgVieuxPort
+            .imgold
             {
-                height: 100%;
+                height: 90%;
+                top: 0%;
             }
             
             .activity
@@ -1230,6 +1232,7 @@ footer
             .about h4 
             {
                 font-size: 2em;
+                margin-bottom: 6%;
 
             }
             .about a 
@@ -1249,7 +1252,7 @@ footer
             {
                 font-size: 2em;
                 margin-top: -7%;
-                margin-bottom: 11%;
+                margin-bottom: 6%;
 
             }
 
