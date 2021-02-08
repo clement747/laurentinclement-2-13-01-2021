@@ -60,7 +60,7 @@ nav li
 nav li:hover
 {
     border-bottom: 5px solid #307ff5;
-    padding: 0px 55px 34.5px 55px ;
+    padding: 10px 0px 30px 0px ;
 }
 
 .title-blue
@@ -833,7 +833,7 @@ footer
 .about
 {
     margin-left: 7%;
-    padding-top: 10%;
+    padding-top: 1%;
     display: flex;
     flex-direction: column; 
 }
@@ -842,6 +842,7 @@ footer
 {
     font-size: 1.5em;
     margin-top: 6%;
+    margin-bottom: 3%;
 }
 
 .about a
@@ -863,7 +864,8 @@ footer
 .place h4
 {
     font-size: 1.5em;
-    margin-top: -5%;
+    margin-top: -6%;
+    margin-bottom: 3%;
 }
 
 .place a
@@ -1399,7 +1401,7 @@ footer
             }
             .about a 
             {
-                font-size: 1.5em;
+                font-size: 1.2em;
                 margin-bottom: 10%;
 
             }
@@ -1427,6 +1429,12 @@ footer
             
             .help 
             {
+                margin-top: 3%;
+            }
+
+            .help a 
+            {
+                margin-bottom: 11%;
                 margin-top: 3%;
             }
 }
