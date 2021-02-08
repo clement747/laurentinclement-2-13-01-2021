@@ -1180,27 +1180,21 @@ footer
 
         .basket
         {
-
             width: 101%;
-
         }
 
         .Amina 
         {
-
             width: 101%;
             top:-52%;  
-
         }
 
         .description h3
         {
-
             font-size: 0.9em;
             top: -17%;
             left: 3.5%;
             top: 20%;
-
         }
 
         
@@ -1332,13 +1326,23 @@ footer
             .backimg
             {
                 position: absolute;
-                height: 465px;
+                height: 409px;
 
             }
 
             .img11
             {
                 top: -90%; 
+            }
+
+            .img12
+            {
+                top: -54%; 
+            }
+
+            .img15
+            {
+                top: -56%; 
             }
 
             .old
