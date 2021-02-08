@@ -1,5 +1,5 @@
 /* Définition des polices */
-@font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
 
 /* Insertion de l'écriture dans le body du site *//* Gestion de la taille du bloc général */
 body
@@ -63,7 +63,7 @@ nav li
 nav li :hover
 {
     border-bottom: 5px solid #307ff5;
-    padding: 0px 70px 40px 37px ;
+    padding: 0px 55px 34.5px 55px ;
 }
 
 .title-blue
@@ -81,8 +81,13 @@ nav a
     color: black;
     text-decoration: none;
     font-size: 0.5em;
-    
 }
+
+nav a:hover
+{
+    color:#307ff5;
+}
+
 /*Voir comment faire les carrés et les lignes en dessous des menus.  */
 
 /*Définir marge pour la partie texte et barre de recherche.  */
@@ -915,15 +920,28 @@ footer
        border-bottom: 0px;
        text-align: center;
        width: 100%;
-       padding: 44.5px 34px 0px 56px;
+       padding: 49.5px 34px 0px 56px;
     }
+
+    nav li :hover 
+    {
+       border-top: 5px solid #307ff5;
+       padding: 58px 70px 40px 37px;
+       border-bottom: 0px;
+    }
+
+    nav a:hover
+    {
+        color:#307ff5;
+    }
+
 
 
     .blue-border
     {
         border-bottom: 0px;
         border-top: 3.5px solid #307ff5;
-        padding: 40px 34px 0px 56px;
+        padding: 49px 34px 0px 56px;
     }
 
     #holidays
@@ -1000,8 +1018,8 @@ footer
 
     .filtereco
     {
-        margin-top: -3%;
-        margin-left: 7%;
+        margin-top: -10%;
+        margin-left: 8%;
         display: flex;
         flex-wrap: initial;
     }
@@ -1010,8 +1028,8 @@ footer
     {
      
         font-size: 1.5em;
-        position: absolute;
-        top: 54%;
+        position: relative;
+        margin-top: 12%;
     }
 
     .designFilter
@@ -1130,7 +1148,7 @@ footer
 
     .background
 {
-    height: 210px;
+    height: 210px; 
     width: ;
 }
 
@@ -1413,7 +1431,7 @@ footer
 
             }
             
-            .help
+            .help 
             {
                 margin-top: 3%;
             }
@@ -1422,6 +1440,11 @@ footer
 /*Adapter le site pour les ordinateurs */
 @media all and (min-width:500px) and (max-width:1099px)
 {
+   nav li:hover
+   {
+       padding: 10px 0px 30px 0px;
+   }
+
     #searchBox
     {
         width: 304px;
@@ -1476,8 +1499,14 @@ footer
 
     .filtereco
     {
-        margin-top: -3%;
+        margin-top: -6%;
+        margin-left: 0%;
+    }
 
+    #filters h2 
+    {
+        margin-bottom: 3%;
+        margin-top: -3%;
     }
 
     #hebpop
@@ -1559,7 +1588,6 @@ footer
     {
         margin-bottom: 10%;
     }
-
-    
+ 
     
 }
