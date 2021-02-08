@@ -925,8 +925,8 @@ footer
 
     nav li :hover 
     {
-       border-top: 3.5px solid #307ff5;
-       padding:  67px 34px 0px 56px;
+       border-top: 5px solid #307ff5;
+       padding: 58px 70px 40px 37px;
        border-bottom: 0px;
     }
 
@@ -941,7 +941,7 @@ footer
     {
         border-bottom: 0px;
         border-top: 3.5px solid #307ff5;
-        padding: 67px 34px 0px 56px;
+        padding: 49px 34px 0px 56px;
     }
 
     #holidays
