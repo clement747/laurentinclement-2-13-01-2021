@@ -1,7 +1,6 @@
 /* Insertion de l'écriture dans le body du site *//* Gestion de la taille du bloc général */
 body
 {
-        font-family: 'Raleway', sans-serif;
         margin: 0%;
 }
 
@@ -420,7 +419,6 @@ figure
 {
     padding-bottom: 0;
     color:#dadada ;
-    resize: 2em; 
     position: absolute;
     top: 77.5%;
     left: 36.5%;
@@ -915,7 +913,6 @@ footer
 
     nav li
     {
-       display: inline block;
        border-bottom: 0px;
        text-align: center;
        width: 100%;
@@ -1139,10 +1136,9 @@ footer
     }
 
     .background
-{
-    height: 210px; 
-    width: ;
-}
+    {
+    height: 210px;
+    }
 
 
     .cannebiere 
