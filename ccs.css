@@ -2,6 +2,7 @@
 body
 {
         margin: 0%;
+        font-family: "Raleway";
 }
 
 
@@ -144,6 +145,7 @@ padding-right: 3%;
     text-align: left;
     padding-left: 30px;
     vertical-align: middle;
+    font-family: 'Raleway';
    
 }
 /*Bouton recherche */
@@ -154,7 +156,7 @@ padding-right: 3%;
    height: 52px;
    width: 55px;
    border-radius: 30%;    
-   background: #307ff5;
+   background: #0065fc;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -163,6 +165,7 @@ padding-right: 3%;
    position: absolute;
    top: 0px;
    left: 120%;
+   
 }
 
 #search
@@ -203,9 +206,9 @@ padding-right: 3%;
 /*Créer bouton pour le filtre economique */
 .designFilter
 {
-    border: 3px solid #F2F2F2;
+    border: 3px solid #d9d9d9;
     border-radius: 100px;
-    height: 54px;
+    height: 45px;
     display: flex;
     position: relative;
     margin-top: 5%;
@@ -220,14 +223,14 @@ padding-right: 3%;
     color:#0065FC;
     background-color: #DEEBFF ;
     font-size: 1.5em;
-    height: 66px;
-    width: 65px;
+    height: 52px;
+    width: 54px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: -6px;
+    top: -4px;
     left: -4px;
 }
 
@@ -280,7 +283,7 @@ padding-right: 3%;
 {
 color: #0065FC;
 font-size: 1em;
-border: 2px solid #6b6f75 ;
+border: 2px solid #ebe9e9 ;
 border-radius: 50%;
 width: 22px;
 height: 21px;
@@ -292,6 +295,12 @@ left: 2%;
 top: 20%;
 margin-right: 10%;
 
+}
+
+.accommodation
+{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 /*gestion du aside */
@@ -335,7 +344,7 @@ aside
 .famous
 {
     border-radius: 20px;
-    box-shadow: 0px 6px 30px #989ca3;
+    box-shadow: 2px -1px 7px #e0e0e0;
     position: relative;
     margin-bottom: 10%;
     overflow: hidden;
@@ -503,7 +512,7 @@ article
     flex-direction: row;
     height: 200px;
     margin-bottom: 10%;
-    box-shadow: 0px 6px 30px #989ca3;
+    box-shadow: 2px -1px 7px #e0e0e0;
     position: relative;
     overflow: hidden;
     border: 5px solid white;
@@ -881,7 +890,8 @@ footer
    
     #menu
     {
-    margin-top: 3.4%;
+        margin-top: 0%;
+        padding: 54px 40px 30px 30px;
     }
 
     .reservia
@@ -894,10 +904,6 @@ footer
     #menu a
     {
         font-size: 1.3em;
-        margin-top: 0%;
-        position: absolute;
-        left: 91%;
-        top: 10%;
         padding: 0%;
     }
 
@@ -905,8 +911,8 @@ footer
     {
     font-size: 2.3em;
     position: absolute;
-    top: -0%;
-    left: 54%;
+    top: -2px;
+    right: 200px;
     margin: 0%;
     flex-wrap: inherit; 
     }
@@ -936,7 +942,7 @@ footer
     #holidays
     {
         margin-left: 3%;
-        margin-top: -6%;
+        margin-top: -7%;
         
     }
 
@@ -987,18 +993,23 @@ footer
         height: 59px;
         width: 159px;
         left: 92%;
-        border-radius: 9px;
+        border-bottom-right-radius: 9px ;
+        border-top-right-radius: 9px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
         
     }
 
     ::placeholder
     {
         font-size: 1.5em;
+
     }
 
     #search
     {
         display: inline;
+        font-size: 0.8em;
         
     }
 
@@ -1052,7 +1063,7 @@ footer
 
     #filters a 
     {
-        font-size: 1.5em;
+        font-size: 1em;
         padding-left: 75px;
     }
 
@@ -1060,8 +1071,8 @@ footer
     
     {
         font-size: 1em;
-        width: 36px;
-        height: 31px;
+        width: 29px;
+        height: 28px;
         left: 0%;
         top: 28%;
 
@@ -1090,10 +1101,10 @@ footer
     article h2
     {
         font-size: 1.5em;
-        margin-bottom: 6%;
+        margin-bottom: 2%;
         width: 100%;
         padding-left: 2%;
-        padding-top: 5%;
+        padding-top: 3%;
     }
 
     article
@@ -1102,9 +1113,10 @@ footer
         margin-left: 2%;
         margin-right: 4%;
         background-color:#F2F2F2;
-        border-radius: 100px;
+        border-radius: 20px;
         padding-left: 2%;
         margin-top: 0%;
+        height: 696px;
         
     }
 
@@ -1112,9 +1124,10 @@ footer
         
     {
 
-    width: 44%;
-    border-radius: 100px;
+    width: 35%;
+    border-radius: 20px;
     margin-right: 4%;
+    height: 649px;
     
 
     }
@@ -1146,16 +1159,24 @@ footer
         border-radius: 30px;
         display: flex;
         flex-direction: row;
-        height: 230px;
+        height: 221px;
         width: 29%;
         margin-right: 2%;
         border: 5px solid white;
+        margin-bottom: 5%;
 
+    }
+
+    h4
+    {
+        margin-top: 0%;
+        font-size: 1.2em;
+        padding-left: 15px;
     }
 
     .background
     {
-    height: 210px;
+    height: 165px;
     }
 
 
@@ -1207,10 +1228,9 @@ footer
 
         .description h3
         {
-            font-size: 0.9em;
-            top: -17%;
+            font-size: 1em;
             left: 3.5%;
-            top: 20%;
+            top: 25%;
         }
 
         
@@ -1240,7 +1260,7 @@ footer
 
             height: 150px;
             border: 6px solid white;
-            margin-bottom: 8%;
+            margin-bottom: 11%;
             border-radius: 25px;
 
         }
