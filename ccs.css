@@ -894,7 +894,7 @@ footer
     #menu a
     {
         font-size: 1.3em;
-        padding-right: 5%;
+        padding-right: 2%;
         margin-top: 0%;
         position: absolute;
         left: 91%;
@@ -937,17 +937,20 @@ footer
     {
         margin-left: 3%;
         margin-top: -6%;
+        
     }
 
     h1
     {
         font-size: 1.5em;
+        
     }
 
     #holidays p
     
     {
         margin-top: -1%;
+        
     }
 
     #searchBox
@@ -955,6 +958,7 @@ footer
         margin-top: 2%;
         height: 59px;
         width: 23%;
+        
     }
 
     .search-text 
@@ -966,6 +970,7 @@ footer
         padding-top: 8px;
         margin-left: 0%;
         font-size: 0.7em;
+        
 
     }
 
@@ -974,6 +979,7 @@ footer
         font-size: 180%;
         height: 55px;
         left: 7%;
+        
     }
 
     .search_btn 
@@ -982,6 +988,7 @@ footer
         width: 159px;
         left: 92%;
         border-radius: 9px;
+        
     }
 
     ::placeholder
@@ -992,17 +999,20 @@ footer
     #search
     {
         display: inline;
+        
     }
 
     .glass
     {
         display: none !important;
+        
     }
 
     #filters
     {
         margin-left: 4%;
         margin-top:-8%;
+        
     }
 
     .filtereco
@@ -1011,6 +1021,7 @@ footer
         margin-left: 8%;
         display: flex;
         flex-wrap: initial;
+        
     }
 
     #filters h2
@@ -1027,6 +1038,7 @@ footer
     margin-right: 2%;
     margin-top: 8%;
     height: 44px;  
+    
 
     }
 
@@ -1059,6 +1071,7 @@ footer
     {
         padding-left: 4%;
         justify-content: left;
+        
     }
 
     .info p 
@@ -1071,6 +1084,7 @@ footer
     {
         display: flex;
         flex-direction: row;
+        
     }
 
     article h2
@@ -1091,6 +1105,7 @@ footer
         border-radius: 100px;
         padding-left: 2%;
         margin-top: 0%;
+        
     }
 
     aside
@@ -1100,6 +1115,7 @@ footer
     width: 44%;
     border-radius: 100px;
     margin-right: 4%;
+    
 
     }
 
@@ -1114,12 +1130,14 @@ footer
     {
         font-size: 190%;
         left: 88%;
+        
     }
         
     #heb-mars
     {
         display: flex;
         flex-wrap: wrap;
+        
     }
 
     .hotel 
@@ -1299,6 +1317,7 @@ footer
             display: flex;
             flex-wrap: wrap;
             margin: 1% 1% 9% 1%;
+            
             
             }
 
