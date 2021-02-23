@@ -975,9 +975,7 @@ footer
         position: relative;
         padding-top: 8px;
         margin-left: 0%;
-        font-size: 0.7em;
-        
-
+        font-size: 1em;
     }
 
     #location 
@@ -985,7 +983,7 @@ footer
         font-size: 180%;
         height: 55px;
         left: 7%;
-        
+
     }
 
     .search_btn 
@@ -1003,6 +1001,7 @@ footer
     ::placeholder
     {
         font-size: 1.5em;
+        margin-left: 0% ;
 
     }
 
@@ -1056,9 +1055,9 @@ footer
     .design-icone
     {
         font-size: 1.5em;
-        height: 54px;
-        width: 57px;
-        top: -5px;
+        height: 49px;
+        width: 50px;
+        top: -3px;
     }
 
     #filters a 
@@ -1087,8 +1086,8 @@ footer
 
     .info p 
     {
-        font-size: 1.5em;
-        padding-left: 0px;
+        font-size: 1em;
+        padding: 7px 10px 0 0px;
     }
 
     .accommodation
@@ -1136,6 +1135,7 @@ footer
     {
 
         font-size: 1.5em;
+        margin-bottom: 7%;
 
     }
 
@@ -1159,7 +1159,7 @@ footer
         border-radius: 30px;
         display: flex;
         flex-direction: row;
-        height: 221px;
+        height: 203px;
         width: 29%;
         margin-right: 2%;
         border: 5px solid white;
@@ -1416,62 +1416,71 @@ footer
             {
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-around;
                 margin-top: -10%;
             }
 
             .about
             {
-                margin-left: 0%;
-                padding-top: 1%;
-                margin-right: 0%;
+                margin: 2% 0% 3% 5%;
 
             }
 
             .about h4 
             {
-                font-size: 1.5em;
-                margin-bottom: 6%;
+                font-size: 1.3em;
+                margin-bottom: 12%;
+                padding-left: 0%;
+                margin-top: 11%;
 
             }
             .about a 
             {
-                font-size: 1.2em;
-                margin-bottom: 10%;
+                font-size: 1em;
+                margin-bottom: 5%;
 
             }
 
             .place 
             {
-                margin-top: 3.5%;
+                margin: 4% 4% 4% 18%;
 
+            }
+
+            .help h4 
+            {
+                font-size: 1.3em;
+                margin-top: 7%;
+                margin-bottom: 15%;
+                padding-left: 0%;
             }
 
             .place h4 
             {
-                font-size: 1.5em;
-                margin-top: -7%;
-                margin-bottom: 7%;
-
+                font-size: 1.3em;
+                margin-top: 1%;
+                margin-bottom: 12%;
+                padding-left: 0%;
             }
 
             .place a
             {
-                font-size: 1.2em;
-                margin-bottom: 12%;
+                font-size: 1em;
+                margin-bottom: 5%;
 
             }
             
             .help 
             {
-                margin-top: 3%;
+                margin: 4% 4% 4% 13%;
             }
 
             .help a 
             {
-                margin-bottom: 11%;
+                margin-bottom: 5%;
                 margin-top: 3%;
             }
+
+           
 }
 
 /*Adapter le site pour les ordinateurs */
