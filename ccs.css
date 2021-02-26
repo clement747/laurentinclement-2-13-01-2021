@@ -129,7 +129,7 @@ padding-right: 3%;
 .search-text
 {
     height: 39px;
-    width: 245px;
+    width: 207px;
     border: 3px solid #F2F2F2;
     position: relative;
     padding-top: 8px;
@@ -680,9 +680,14 @@ margin: 7%;
     height: 193px;
     position: relative;
     border-radius: 20px;
-    box-shadow: 0px 6px 30px #989ca3;
+    box-shadow: 2px 1px 7px #e0e0e0;
     margin: 5% 2% 6% 3%;
     overflow: hidden;
+}
+
+.small
+{
+    height: 160px;
 }
 
 /*La case pour le titre */
@@ -726,7 +731,7 @@ margin: 7%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    top: -15%; 
+    top: 0%; 
 }
 
 .img11
@@ -753,16 +758,15 @@ margin: 7%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    top: -15%; 
+    top: 0%; 
 }
 
 .img14
 {
     background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
+    background-position: top;
+    background-size: contain;
     background-repeat: no-repeat;
-    top: -15%; 
 }
 
 .img15
@@ -1044,12 +1048,14 @@ footer
 
     .designFilter
     {
-
     margin-right: 2%;
     margin-top: 8%;
     height: 44px;  
-    
+    }
 
+    .designFilter:hover
+    {
+        background-color: #DEEBFF;
     }
 
     .design-icone
@@ -1336,7 +1342,7 @@ footer
             {
             display: flex;
             flex-wrap: wrap;
-            margin: 1% 1% 9% 1%;
+            margin: 1% 1% 1% 1%;
             
             
             }
@@ -1356,7 +1362,7 @@ footer
 
             .big
             {
-                height: 402px;
+                height: 424px;
                 width: 22%;
             }
 
@@ -1369,12 +1375,13 @@ footer
 
             .img11
             {
-                top: -90%; 
+                top: -44%; 
             }
 
             .img12
             {
-                top: -54%; 
+                top: 0%;
+                height: 103%; 
             }
 
             .img15
@@ -1388,10 +1395,24 @@ footer
                 display: flex;
                 flex-wrap: wrap;
                 margin-top: 0%;
+                margin-bottom: 16%;
             }
 
-            
+            .stong
+            {
+                height: 220px;
+                margin-bottom: 15%;
+            }
 
+            .title-stong
+            {
+                top: 79%;
+            }
+
+            .medium
+            {
+                height: 182px;
+            }
             .big-title
             {
                 height: 20%;
