@@ -217,6 +217,11 @@ padding-right: 3%;
     
 }
 
+.designFilter:hover
+{
+    background-color: #DEEBFF;
+}
+
 /*Design des icones des filtres */
 .design-icone
 {
@@ -1051,11 +1056,6 @@ footer
     margin-right: 2%;
     margin-top: 8%;
     height: 44px;  
-    }
-
-    .designFilter:hover
-    {
-        background-color: #DEEBFF;
     }
 
     .design-icone
