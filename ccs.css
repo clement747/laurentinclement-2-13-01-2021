@@ -1639,10 +1639,17 @@ footer
         margin-left: 10%;
     }
 
+    .img14
+    {
+        background-position: center;
+        background-size: cover;
+        height: 295px;
+    }
+
     footer
     {
         display: flex;
-        justify-content: space-around;
+        height: 270px;
     }
 
     .about
